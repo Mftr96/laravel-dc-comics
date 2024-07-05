@@ -43,7 +43,7 @@ Questo git-template fornisce lo scaffold di una web application realizzata con L
 	```
 - Puntare il browser all'indirizzo mostrato in terminale per controllare che tutto funzioni.
 
-milestone 1 :
+milestone 2 :
 eseguire i seguenti comandi da terminale:
  php artisan make:model Comic (creazione del modello Comic)
 
@@ -51,4 +51,7 @@ eseguire i seguenti comandi da terminale:
 
  php make:seeder Comicsseeder(per creare il seeder che poi tramite comando popola la tabella)
 
-php artisan make:controller PageController(per creare il controller che passa i dati poi alle rotte)
+ php artisan make:controller PageController(per creare il controller che passa i dati poi alle rotte)
+
+milestone 3: creazione operazioni CRUD relative alle view
+nel Pagecontroller.php dvrò andare a creare una funzione index che restituisce indice, una show che restituisce un singolo fumetto, e una create(già esistente nelle rotte) per rimandare ad un form che crei un fumetto
