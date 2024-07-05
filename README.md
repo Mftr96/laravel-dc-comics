@@ -42,3 +42,13 @@ Questo git-template fornisce lo scaffold di una web application realizzata con L
 	npm run dev
 	```
 - Puntare il browser all'indirizzo mostrato in terminale per controllare che tutto funzioni.
+
+milestone 1 :
+eseguire i seguenti comandi da terminale:
+ php artisan make:model Comic (creazione del modello Comic)
+
+ php artisan make:migration create_comics_table(per creare la tabella comics )
+
+ php make:seeder Comicsseeder(per creare il seeder che poi tramite comando popola la tabella)
+
+php artisan make:controller PageController(per creare il controller che passa i dati poi alle rotte)
